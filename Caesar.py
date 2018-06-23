@@ -1,8 +1,8 @@
-abcEng='abcdefghijklmnopqrstuvwxyz'
-abcRu='абвгдеёжзийклмнопрстуфхцчшщъьыэюя'
-text=input('Input text: ').lower()
-k=int(input('Enter the shift number: '))
-new=''
+abcEng = 'abcdefghijklmnopqrstuvwxyz'
+abcRu = 'абвгдеёжзийклмнопрстуфхцчшщъьыэюя'
+text = input('Input text: ').lower()
+k = int(input('Enter the shift number: '))
+new = ''
 
 for c in text:
     if c in abcEng:
